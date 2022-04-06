@@ -1,0 +1,30 @@
+<html>
+<body>
+<head>
+  <link type="stylesheet" url="C:\Users\imrd\Desktop\bhushan.css">
+  </head>
+
+
+
+<h2>Regestaion from</h2>
+
+<form>
+    FIRST NAME: <input type="text" value=""><br>
+	LAST NAMNE: <input type="text" value=""><br>
+	password:   <input type="passeord" value=""><br>
+	Gender:     <input type="radio"  name="gender" value="male"> male<br>
+	            <input type="radio"  name="gender" value="male"> female<br>
+	
+    checkbox:   <input type="checkbox" value="Hindi"> Hindi
+                <input type="checkbox" value="English"> English
+				<input type="checkbox" value="Marath"> Marathi<br></br>
+				<input type="button" value=""></input>
+				<input type="click me" value="save">
+
+
+</form>
+
+
+</body>
+</html>
+
