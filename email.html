@@ -1,12 +1,10 @@
 <html>
 <head>
 <script type="text/javascript">
-function check_email()
+functioncheck_email()
 {
-var email_add=document.getElementById("email").value
-atpos=email_add.indexOf("@")
-dotpos=email_add.lastIndexOf(".")
-if (atpos<1 || dotpos<atpos+2 )
+varemail_add=document.getElementById("email").value
+if ((email_add.indexOf("@") <= 1) &&( email_add.lastIndexOf(".") <= 2))
 {
 alert("Not Valid Email, please try again.");
 return false
